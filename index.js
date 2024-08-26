@@ -9,7 +9,7 @@ const path = require('path');
 
 const app = express()
 
-const PORT = 1000;
+const PORT = process.env.PORT || 1000;
 
 dotEnv.config();
 
